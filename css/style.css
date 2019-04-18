@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
+*{
+    font-family: Roboto, sans-serif;
+}
+/*style for index page*/
+html, body, header, #intro{
+    height: 100%;
+    /*height: 1000px;*/
+}
+#intro{
+    background: url("../img/bg1.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+@media (max-width: 740px) {
+    #intro{
+        height: 1000px;
+    }
+}
+.navbar{
+    background-color: rgba(0,0,0,0.4);
+}
+@media only screen and (max-width: 768px){
+    .navbar{
+        background-color: #1c2331;
+    }
+}
+.page-footer{
+    background-color: #1c2331;
+}
+/*@media (max-width: 740px) {
+    html,body, header, .view{
+        height: 100px;
+    }
+}*/
